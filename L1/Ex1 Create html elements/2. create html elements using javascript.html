@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="root">
+        
+        <p id="root2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, necessitatibus!</p>
+    </div>
+    <script>
+        // This is how we can create html elements using javascript
+        const heading = document.createElement("h1");
+        //             ↑              ↑
+        //          variable       create H1
+
+        heading.innerHTML = "this is js html";
+        //      ↑                     ↑
+        //    content                text
+
+        const root = document.getElementById("root");
+        //   ↑                ↑
+        // variable       find existing element
+
+        root.appendChild(heading);
+        //   ↑             ↑
+        // parent       child to insert
+
+    </script>
+
+</body>
+
+</html>

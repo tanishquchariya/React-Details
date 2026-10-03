@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="root"></div>
+    // create html elements using react
+    // injecting react into html file using script tag
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script>
+          // 1) Create a React element (element is object) (NOT a real HTML tag yet)
+        const heading = React.createElement("h1",{}, "Hello Bete");
+
+        // 2) Create the React root (ReactDOM's responsibility)
+        const rootforRender = ReactDOM.createRoot(document.getElementById("root"));
+
+          // 3) Render the element into the root
+        rootforRender.render(heading);
+    </script>
+</body>
+
+</html>
