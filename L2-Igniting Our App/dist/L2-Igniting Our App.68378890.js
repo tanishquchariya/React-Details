@@ -1,0 +1,2 @@
+const parent=React.createElement("div",{id:"parent"},[React.createElement("div",{id:"child"},[React.createElement("h1",{},"this nested element h1 tag"),React.createElement("h2",{},"hell this is h2 tag")]),React.createElement("div",{id:"child2"},[React.createElement("h1",{},"this nested element h1 tag"),React.createElement("h2",{},"hell this is h2 tag")])]);console.log(parent);const rootforRender=ReactDOM.createRoot(document.getElementById("root"));rootforRender.render(parent);
+//# sourceMappingURL=L2-Igniting Our App.68378890.js.map
