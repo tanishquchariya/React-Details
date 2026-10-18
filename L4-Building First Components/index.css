@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    border: 3PX solid black;
+    justify-content: space-between;
+}
+.logo{
+    width: 200px;
+}
+.nav-item > ul{
+    list-style: none;
+    display: flex;
+    align-items: space-between;
+}
+.nav-item >ul>li{
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+}
